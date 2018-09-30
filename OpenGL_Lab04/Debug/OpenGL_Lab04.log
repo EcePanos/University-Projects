@@ -1,0 +1,17 @@
+﻿Build started 1/12/2015 10:13:31 μμ.
+     1>Project "C:\Users\PanosGk\Desktop\OpenGL_Lab04\OpenGL_Lab04\OpenGL_Lab04\OpenGL_Lab04.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\OpenGL_Lab04.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         OpenGL_Lab04.vcxproj -> C:\Users\PanosGk\Desktop\OpenGL_Lab04\OpenGL_Lab04\Debug\OpenGL_Lab04.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\OpenGL_Lab04.unsuccessfulbuild".
+         Touching "Debug\OpenGL_Lab04.lastbuildstate".
+     1>Done Building Project "C:\Users\PanosGk\Desktop\OpenGL_Lab04\OpenGL_Lab04\OpenGL_Lab04\OpenGL_Lab04.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12
