@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>7761_proodos</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="order.css" />
+	<script type = "text/javascript" src = "order.js"></script>
+</head>
+<body>
+<form name="form1">
+<div id=plaisio>
+<div id=head>
+ΝΕΑ ΠΑΡΑΓΓΕΛΙΑ ΠΕΛΑΤΗ
+</div>
+<div id=head1>
+Στοιχεία Πελάτη
+</div>
+<div id=stoixp>
+Όνομα:<br>
+
+Επώνυμο:<br>
+
+Φύλο:<br>
+
+</div>
+<div id=input1>
+<input name="fname">
+<input name="lname">
+<select name="sect" id=sect>
+  <option selected value="1">Γυναίκα</option>
+  <option value="2">Άνδρας</option>
+  <option value="3">Έφηβος</option>
+  
+  </select>
+</div>
+<div id=head2>
+Στοιχεία Παραγγελίας
+</div>
+<div id=stoixpar>
+Κωδικός Προϊόντος:<br>
+Μέγεθος: <br>
+Χρώμα: <br>
+</div>
+<div id=input2>
+<input name="code">
+<select name="sect2" id=sect2>
+  <option selected value="1">Small</option>
+  <option value="2">Medium</option>
+  <option value="3">Large</option>
+  <option value="4">XLarge</option>
+  
+  </select>
+  <br>
+  <select name="sect3" id=sect3>
+  <option selected value="1">Καφέ</option>
+  <option value="2">Κόκκινο</option>
+  <option value="3">Λευκό</option>
+  <option value="3">Μπλε</option>
+  <option value="3">Πράσινο</option>
+  
+  </select>
+</div>
+<div id=keys>
+<button onclick="return validateForm()">Insert new</button>
+<input type="reset" value="Cancel">
+</div>
+
+<div id=board>
+<div id=head3>
+ΔΕΛΤΙΟ ΠΑΡΑΓΓΕΛΙΑΣ
+</div>
+
+<div id=table>
+<table id=mytable >
+<tr>
+	<th> A/A</th>
+	<th> Όνομα</th>
+	<th>Επώνυμο</th>
+	<th> Φύλο</th>
+	<th> Κωδικός Προϊόντος</th>
+	<th>Μέγεθος</th>
+	<th> Χρώμα</th>
+	<th> Actions</th>
+</tr>
+</table>
+
+</div>
+</div>
+</div>
+</form>
+</body>

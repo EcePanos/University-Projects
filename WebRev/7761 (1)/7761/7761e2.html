@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>7761_e2</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body bgcolor="3333ff">
+	<form>
+	<table border="2" width="90%" background="titlte_bg.jpg">
+  <tr>
+    <th colspan="20" rowspan="4">
+	<img src="Icons/title.jpg" alt="title" align=center>
+	</th>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <td colspan="6" rowspan="6" align="middle">
+	<img src="Icons/pertouli0.jpg" alt="pertouli0">
+	</td>
+    <td colspan="7" rowspan="5" bgcolor="ffff99" align="middle">
+	<img src="Icons/domatio0.jpg" alt="domatio0">
+	</td>
+    <td colspan="7" rowspan="5" bgcolor="ffff99" align="middle">
+	<img src="Icons/domatio1.jpg" alt="domatio1">
+	</td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <th colspan="14" rowspan="2" bgcolor="red"><align="middle">
+	<font color="white">
+	Ηλεκτρονικές &nbsp &nbsp &nbsp &nbsp Κρατήσεις
+	</font>
+	</th>
+  </tr>
+  <tr>
+    <td colspan="6" rowspan="4" align="middle">
+	<img src="Icons/pertouli1.jpg" alt="pertouli1">
+	</td>
+  </tr>
+  <tr>
+    <td colspan="14" rowspan="7" bgcolor="ffff99" align="middle">
+	
+	<font color="red">
+	<b>Επιλέξτε Ημερομηνία Άφιξης &nbsp &nbsp Επιλέξτε Ημερομηνία Αναχώρησης</b> 
+	 </font><br><br>
+	<input name="arrival date"> &nbsp &nbsp &nbsp &nbsp
+	<input name="departure date"><br><br>
+	<font color="red">
+	<b>Δηλώστε τον αριθμό ατόμων &nbsp &nbsp Δηλώστε το είδος Δωματίων</b> 
+	</font><br><br>
+	
+	<select name="sect">
+	<option selected value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	</select> &nbsp &nbsp &nbsp &nbsp
+	<select name="sect2">
+	<option selected value="1">Μονόκλινο</option>
+	<option value="2">Δίκλινο</option>
+	<option value="3">Τρίκλινο</option>
+	</select> <br> <br> <br> <br> <br> <br>
+	
+	<input type="reset" value="Ακύρωση Στοιχείων">
+	<input type="submit" value="Έλεγχος Διαθεσιμότητας">
+	
+	</td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <td colspan="6" rowspan="6" align="middle">
+	<img src="Icons/pertouli2.jpg" alt="pertouli2">
+	</td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <td colspan="14" rowspan="2" bgcolor="red" align="right">
+	<script>
+		var d = new Date(),
+		minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
+		hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
+		months = ['Ιανουαρίου','Φεβρουαρίου','Μαρτίου','Απριλίου','Μαΐου','Ιουνίου','Ιουλίου','Αυγούστου','Σεπτεμβρίου','Οκτωβρίου','Νοεμβρίου','Δεκεμβρίου'],
+		days = ['Κυριακή','Δευτέρα','Τρίτη','Τετάρτη','Πέμπτη','Παρασκεύη','Σάββατο'];
+		document.write("<font color=\"white\">"+days[d.getDay()]+' '+d.getDate()+' '+months[d.getMonth()]+' '+d.getFullYear()+' '+hours+':'+minutes+"</font>");
+	</script>
+	</td>
+  </tr>
+  <tr>
+  </tr>
+</table>
+	</form>
+</body>

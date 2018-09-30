@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>7761_p6</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="company.css" />
+	<script type = "text/javascript" src = "company.js"></script>
+</head>
+<body>
+<form name="myForm">
+<div id=all>
+	<div id=bar1>
+	<image src="logo.png" align=center>
+	<button type="button" class=simple>Ο λογαριασμός μου</button>
+	<button type="button" class=simple>Αναζήτηση εργασίας</button>
+	<button type="button" class=simple>Βιογραφικά</button>
+	<button type="button" class=simple>Προτεινόμενες Σελίδες</button>
+	<button type="button" class=simple>Συμβουλες</button>
+	<button type="button" class=simple>Σύνδεση</button>
+	<button type="button" class=simple onclick="part1()">Εγγραφή</button>
+	<button type="button" class=simple>Εργοδότες</button>
+	</div>
+	<div id=new>
+		<button type="button" id=red>Εγγεγραμμένος χρήστης: Συνδεθείτε εδώ>></button>
+		<div id=title1>Νέοι χρήστες: Εγγραφείτε τώρα</div>
+		<div id=select1>
+		<input type="radio" name="pay" value="cand" checked>Candidate<br>
+		<input type="radio" name="pay" value="emp">Employer<br>
+		<input type="radio" name="pay" value="pso">Personnel Selection Officer<br>
+		<p id=p1>
+		*Υποχρεωτικό πεδίο
+		</p>
+		</div>
+		<div id=cred>
+			Στοιχεία Λογαριασμού
+		</div>
+		<div id=hor>
+		<hr color=brown>
+		</div>
+		<div id=cred1 align=right>
+			*Το όνομά σας:<br>
+			*Διεύθυνση email:<br>
+			*Δημιουργία Κωδικού Πρόσβασης:<br>
+			Φύλο:
+		</div>
+		<div id=cred2>
+			<input name=fname required> <br>
+			<input name=email required><br>
+			<br>
+			<input type="password" name=password required><br>
+			<input name=gender required>
+		</div>
+		<div id=cred3 align=right>
+			*Το επώνυμό σας:<br>
+			*Επιβεβαίωση Διεύθυνσης email:<br>
+			*Επιβεβαίωση Κωδικού Πρόσβασης:<br>
+			Ημερομηνία γέννησης:
+		</div>
+		<div id=cred4>
+			<input name=lname required> <br>
+			
+			<input name=cemail required><br>
+			<br>
+			<input type="password" name=cpassword required><br>
+			<input name=bdate required>
+		</div>
+		<div id=bar3 align=right>
+			<button type="button" class=blue align=right onclick="part2()">Συνεχίστε να συμπληρώσετε τα στοιχεία επικοινωνίας>></button>
+		</div>
+	</div>
+	<div id=new2>
+		<div id=title2>
+			Στοιχεία Επικοινωνίας
+		</div>
+		<div id=hor2>
+			<hr color=brown>
+		</div>
+		<div id=com1 align=right>
+			Τηλέφωνο<br>
+			Διεύθυνση<br>
+			*Πόλη<br>
+			*Χώρα
+		</div>
+		<div id=com2>
+			<input name=phone required> <br>
+			<input name=add1 required><br>
+			
+			<input name=city required><br>
+			<input name=country required>
+		</div>
+		<div id=com3 align=right>
+			Κινητό<br>
+			Διεύθυνση 2<br>
+			Ταχυδρομικός Κώδικας
+		</div>
+		<div id=com4>
+			<input name=mobile required> <br>
+			
+			<input name=add2 required><br>
+			
+			<input name=zip required><br>
+			
+		</div>
+		<div id=hor3>
+			<hr color=brown>
+		</div>
+		<div id=boxes>
+			<input type="checkbox" name="sub" value="news">Newsletter και ενημερωτικά e-mails του Kariera.gr<br>
+			<input type="checkbox" name="sub" value="seminars">Ανακοινώσεις σεμιναρίων και newsletter Business Seminars<br>
+			<input type="checkbox" name="sub" value="sponsors">Άλλες πληροφορίες για προϊόντα και χορηγούς
+		</div>
+		<div id=button>
+			<button type="button" class=big onclick="part3()">Εγγραφείτε τώρα</button>
+		</div>
+	</div>
+	<div id=new3>
+		<div id=title3>
+			ΣΤΟΙΧΕΙΑ ΕΓΓΡΑΦΗΣ
+		</div>
+		<div id=table>
+			<table id=mytable>
+			</table>
+		</div>
+		<div id=hor4>
+			<hr color=gray size="5">
+		</div>
+		<div id=file>
+			<input type="file" name="fileToUpload" id="fileToUpload">
+		</div>
+	</div>
+	<div id=bar2>
+	
+	Προσλαμβάνουν άμεσα
+	
+	<button type="button" class=blue align=right>Λίστα εταιριών ανά κλάδο>></button>
+	
+	</div>
+</div>
+</form>
+</body>
+</html>

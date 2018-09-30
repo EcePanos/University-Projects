@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type= "text/xsl" href= "style.xsl"?>
+<catalog>
+	<book>
+		<title>The Book of the Long Sun</title>
+		<author>Gene Wolfe</author>
+	</book>
+	<book>
+		<title>The Moon Is A Harsh Mistress</title>
+		<author>Robert Heinlein</author>
+	</book>
+	<book>
+		<title>The Dying Earth</title>
+		<author>Jack Vance</author>
+	</book>
+	<book>
+		<title>The Dispossessed</title>
+		<author>Ursula K. LeGuin</author>
+	</book>
+	<book>
+		<title>Tigana</title>
+		<author>Guy Gavriel Kay</author>
+	</book>
+	<book>
+		<title>Frankenstein</title>
+		<author>Mary Shelley</author>
+	</book>
+	<book>
+		<title>Brave New World</title>
+		<author>Aldous Huxley</author>
+	</book>
+	<book>
+		<title>The Book of the New Sun</title>
+		<author>Gene Wolfe</author>
+	</book>
+	<book>
+		<title>The Left Hand of Darkness</title>
+		<author>Ursula K. LeGuin</author>
+	</book>
+	<book>
+		<title>A Clockwork Orange</title>
+		<author>Anthony Burgess</author>
+	</book>
+	<book>
+		<title>Dune</title>
+		<author>Frank Herbert</author>
+	</book>
+	<book>
+		<title>Planet of Adventure</title>
+		<author>Jack Vance</author>
+	</book>
+	<book>
+		<title>The Lord of the Rings</title>
+		<author>J.R.R. Tolkien</author>
+	</book>
+	<book>
+		<title>All My Sins Remembered</title>
+		<author>Joe Haldeman</author>
+	</book>
+	<book>
+		<title>The Man in the High Castle</title>
+		<author>Philip K. Dick</author>
+	</book>
+	<book>
+		<title>The Master and the Margarita</title>
+		<author>Mikhail Bulgakov</author>
+	</book>
+	<book>
+		<title>The Fionavar Tapestry</title>
+		<author>Guy Gavriel Kay</author>
+	</book>
+	<book>
+		<title>Stranger in a Strange Land</title>
+		<author>Robert Heinlein</author>
+	</book>
+	<book>
+		<title>A Song of Ice And Fire</title>
+		<author>George R.R. Martin</author>
+	</book>
+	<book>
+		<title>The Fifth Head of Cerebus</title>
+		<author>Gene Wolfe</author>
+	</book>
+	
+</catalog>

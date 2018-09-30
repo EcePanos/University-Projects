@@ -1,0 +1,271 @@
+body
+{
+	background-image: url("background.jpg");
+	background-size: cover;
+
+}
+
+#bar1{
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 4%;
+	width:100%;
+}
+
+#bar2{
+	background-color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 20px;
+	width:100%;
+	color:gray;
+}
+.simple{
+	background:none;
+	border:none;
+	color:brown;
+}
+.blue{
+	background:none;
+	border:none;
+	color:blue;
+}
+#new{
+	visibility: hidden;
+	background-color: white;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	height: 80%;
+	width:900px
+}
+#red{
+	background:none;
+	border:none;
+	color:brown;
+	position: absolute;
+	top: 10px;
+	left: 600px;
+	
+}
+#title1{
+	background-color:brown;
+	padding: 5px 5px 5px 5px;
+	border:none;
+	color:white;
+	font-size:150%;
+	position: absolute;
+	top: 40px;
+	left: 80px;
+}
+#select1{
+	
+	position: absolute;
+	top: 90px;
+	left: 80px;
+}
+#p1{
+	color:brown;
+}
+#cred{
+	color:brown;
+	font-size:150%;
+	position: absolute;
+	top: 200px;
+	left: 80px;
+}
+#hor{
+	color:brown;
+	position: absolute;
+	width:90%;
+	padding: 10px;
+	top: 250px;
+	left: 0px;
+}
+#cred1{
+	position: absolute;
+	padding: 5px 5px 5px 5px;
+	width:25%;
+	padding: 20px;
+	top: 300px;
+	left: 0px;
+}
+#cred2{
+	position: absolute;
+	width:25%;
+	padding: 20px;
+	top: 300px;
+	left: 250px;
+}
+#cred3{
+	position: absolute;
+	padding: 5px 5px 5px 5px;
+	width:25%;
+	padding: 20px;
+	top: 300px;
+	left: 450px;
+}
+#cred4{
+	position: absolute;
+	width:25%;
+	padding: 20px;
+	top: 300px;
+	left: 700px;
+}
+#bar3{
+	background-color: #00ffff;
+	position: absolute;
+	bottom:0px;
+	height: 20px;
+	width:100%;
+	color:gray;
+}
+#new2{
+	visibility:hidden;
+	background-color: white;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	height: 80%;
+	width:900px
+}
+#title2{
+	color:brown;
+	font-size:150%;
+	position: absolute;
+	top: 50px;
+	left: 80px;
+}
+#hor2{
+	color:brown;
+	position: absolute;
+	width:90%;
+	padding: 10px;
+	top: 80px;
+	left: 0px;
+}
+#com1{
+	position: absolute;
+	padding: 5px 5px 5px 5px;
+	width:25%;
+	padding: 20px;
+	top: 150px;
+	left: 0px;
+}
+#com2{
+	position: absolute;
+	width:25%;
+	padding: 20px;
+	top: 150px;
+	left: 250px;
+}
+#com3{
+	position: absolute;
+	padding: 5px 5px 5px 5px;
+	width:25%;
+	padding: 20px;
+	top: 150px;
+	left: 450px;
+}
+#com4{
+	position: absolute;
+	width:25%;
+	padding: 20px;
+	top: 150px;
+	left: 700px;
+}
+#hor3{
+	color:brown;
+	position: absolute;
+	width:90%;
+	padding: 10px;
+	top: 280px;
+	left: 0px;
+}
+#boxes{
+	color:brown;
+	position: absolute;
+	top: 330px;
+	left: 30px;
+}
+#button{
+	
+	position: absolute;
+	top: 500px;
+	left: 350px;
+}
+.big{
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
+	
+	background-color: brown;
+	color:white;
+	font-size:150%;
+	 padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+#new3{
+	visibility:hidden;
+	border-radius: 25px;
+	 border-style: solid;
+    border-color: gray;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: white;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	height: 80%;
+	width:900px
+}
+#title3{
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
+	
+	background-color: brown;
+	color:white;
+	font-family:Segoe Script;
+	font-size:150%;
+	 padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	position: absolute;
+	top: 30px;
+	left: 280px;
+	height: 30px;
+	width:300px
+}
+#table{
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	height: 360px;
+	width:460px
+}
+#mytable{
+	color:brown;
+	font-weight: bold;
+	border-spacing: 70px;
+}
+#hor4{
+	
+	color:gray;
+	position: absolute;
+	width:95%;
+	height: 4%;
+	padding: 10px;
+	top: 500px;
+	left: 0px;
+
+}
+#file{
+	position: absolute;
+
+	top: 550px;
+	left: 350px;
+}

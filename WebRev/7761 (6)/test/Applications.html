@@ -1,0 +1,160 @@
+﻿<html>
+	<head>
+		<title> Applications 7761 </title>
+		<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="style2.css" />
+		<script type="text/javascript">
+			function checkIfEmailInString(text) { 
+				var re = /(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;
+				return re.test(text);
+			}
+			function checkIfGreek(text) { 
+				var re = /[\u0370-\u03FF\u1F00-\u1FFF]/;
+				return re.test(text);
+			}
+			function validateForm()
+			{
+			var a=document.forms["myForm"]["lastname"].value;
+			var b=document.forms["myForm"]["firstname"].value;
+			var c=document.forms["myForm"]["fathername"].value;
+			var d=document.forms["myForm"]["am"].value;
+			var e=document.forms["myForm"]["year"].value;
+			var f=document.forms["myForm"]["adress"].value;
+			var g=document.forms["myForm"]["phone"].value;
+			var h=document.forms["myForm"]["email"].value;
+			var i=document.forms["myForm"]["date"].value;
+			var str = "";
+			var error=0;
+			if (a==null || a==""){str +="Last Name must be filled out\n";error=1;}
+			if(a!=null && a!="" && a[0]!=a[0].toUpperCase()){str+="Last name first letter must be capital\n";error=1;}
+			if(a!=null && a!="" && a[0]==a[0].toUpperCase() && !checkIfGreek(a)){str+="Last name must be in greek\n";error=1;}
+			if (b==null || b==""){str +="First Name must be filled out\n";error=1;}
+			if(b!=null && b!="" && b[0]!=b[0].toUpperCase()){str+="First name first letter must be capital\n";error=1;}
+			if(b!=null && b!="" && b[0]==b[0].toUpperCase() && !checkIfGreek(b)){str+="First name must be in greek\n";error=1;}
+			if (c==null || c==""){str +="Father Name must be filled out\n";error=1;}
+			if(c!=null && c!="" && c[0]!=c[0].toUpperCase()){str+="Father name first letter must be capital\n";error=1;}
+			if(c!=null && c!="" && c[0]==c[0].toUpperCase() && !checkIfGreek(c)){str+="Father name must be in greek\n";error=1;}
+			if (d==null || d==""){str +="AM must be filled out\n";error=1;}
+			if(d!=null && d!="" && isNaN(d)){str+="AM must be a number\n";error=1;}
+			if (e==null || e==""){str+="Year must be filled out\n";error=1;}
+			if(e!=null && e!="" && isNaN(e)){str+="Year must be a number\n";error=1;}
+			if (f==null || f==""){str +="Address must be filled out\n";error=1;}
+			if (g==null || g==""){str +="Phone must be filled out\n";error=1;}
+			if(g!=null && g!="" && isNaN(g)){str+="Phone must be a number\n";error=1;}
+			if(g!=null && g!="" && !isNaN(g) && g.length!=10){str+="Phone must be 10 numbers\n";error=1;}
+			if (h==null || h==""){str +="Email must be filled out\n";error=1;}
+			if(h!=null && h!="" && !checkIfEmailInString(h)){str +="Email is not valid\n";error=1;}
+			if (i==null || i==""){str +="Date must be filled out\n";error=1;}
+			if(i!=null && i!="" &&!Date.parse(i)){str +="Date must be valid\n";error=1;}
+			if(i!=null && i!="" && Date.parse(i) && Date.parse(i)<Date.now()){str +="Due Date must be after today\n";error=1;}
+			if(error==1){
+				alert(str);
+				return false;
+			}
+			
+			}
+		</script>
+		
+	</head>
+	
+	<body>
+	
+		<form name="myForm" onsubmit="return validateForm()" action="Applications.php" method="GET">
+		
+			<div class="header">
+		ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ<br>
+		ΠΟΛΥΤΕΧΝΙΚΗ ΣΧΟΛΗ<br>
+		ΤΜΗΜΑ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ<br>
+		& ΤΕΧΝΟΛΟΓΙΑΣ ΥΠΟΛΟΓΙΣΤΩΝ<br>
+		
+			
+			<div class="intro">
+		ΑΙΤΗΣΗ<br/>
+		ΕΚΔΟΣΗΣ ΠΙΣΤΟΠΟΙΗΤΙΚΟΥ
+		<p>
+		ΣΤΟΙΧΕΙΑ ΦΟΙΤΗΤΗ
+		</div>
+			
+			
+			<div class="comments1">
+		ΠΡΟΣ<br/>
+		Την Γραμματεία του<br/>
+		Τμήματος Ηλεκτρολόγων Μηχανικών<br/>
+		<p>
+		<u>Ε Ν Τ Α Υ Θ Α</u>
+		</div>
+		
+		
+			<div class="elements">
+		Επώνυμο: <p/>
+		Όνομα: <p/>
+		Όνομα Πατρός: <p/><br>
+		ΑΜ Φοιτητή: <p/>
+		Έτος σπουδών: <p/>
+		Διεύθυνση Κατοικίας: <p/><br>
+		Τηλέφωνο: <p/>
+		Email: <p/>
+		Ημερομηνία, Πάτρα:
+		</div>
+		
+		
+			<div class="boxes">
+		<input type="text" name="lastname" size=20> <p/>
+		<input type="text" name="firstname" size=20> <p/>
+		<input type="text" name="fathername" size=20> <p/>
+		<input type="text" name="am" size=20 onkeypress="return isNumberKey(event)"> <p/>
+		<input type="text" name="year" size=20> <p/>
+		<input type="text" name="adress" size=20> <p/>
+		<input type="text" name="phone" size=15 onkeypress="return isNumberKey(event)"> <p/>
+		<input type="text" name="email" size=30 onblur="return LowerCase()"> <p/>
+		<input type="text" name="date" size=15>
+		</div>
+		
+			
+			<div class="comments2">
+		Παρακαλώ να μου χορηγήσετε<br>
+		πιστοποιητικό φοιτητικής μου<br>
+		κατάστασης το οποίο επιθυμώ<br>
+		να χρησιμοποιήσω για κάθε νόμιμη<br>
+		χρήση.
+		</div>
+			
+			
+			<div class="choice">
+		Για τη στρατολογία <p/>
+		Για τo ΤΣΜΕΔΕ <p/>
+		Επικυρωμένη φωτοτυπία καρτέλας <p/>
+		Για την εφορία <p/>
+		Για τη φοιτητική εστία (στέγαση) <p/>
+		Για Ξένες αρχές <p/>
+		Απλή φωτοτυπία καρτέλλας
+		</div>
+		
+		
+			<div class="rbuttons">
+		<input type="radio" value="1" name="forma"> <p/>
+		<input type="radio" value="2" name="forma"> <p/>
+		<input type="radio" value="3" name="forma"> <p/>
+		<input type="radio" value="4" name="forma"> <p/>
+		<input type="radio" value="5" name="forma"> <p/>
+		<input type="radio" value="6" name="forma"> <p/>
+		<input type="radio" value="7" checked name="forma">
+		</div>
+		
+			
+			<div class="buttons">
+		<input type="submit" value="Υποβολή Αίτησης">
+		<input type="reset" value="Ακύρωση"> <p/>			
+		</div>
+	
+			<div class="footer">
+		Γκικόπουλος Παναγιώτης 7761<p/> 
+		</div>
+	
+	</div>	
+	</form>	
+	</body>
+	
+</html>
