@@ -1,0 +1,110 @@
+﻿Build started 16/3/2015 1:10:53 μμ.
+     1>Project "C:\Users\Christos\workspace_vs\GeoLabSkeleton\GeoLabSkeleton\GeoLabSkeleton.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\GeoLabSkeleton.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Christos\workspace_vs\GeoLabSkeleton\VVRFramework/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ExampleScene.cpp main.cpp
+         main.cpp
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\settings.h(16): warning C4251: 'vvr::Settings::sMap' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'vvr::Settings'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=std::string
+                 ]
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\canvas.h(29): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\canvas.h(30): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\canvas.h(31): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\canvas.h(138): warning C4251: 'vvr::Frame::shapes' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of struct 'vvr::Frame'
+                 with
+                 [
+                     _Ty=vvr::Shape *
+                 ]
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\canvas.h(145): warning C4251: 'vvr::Canvas2D::frames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'vvr::Canvas2D'
+                 with
+                 [
+                     _Ty=vvr::Frame
+                 ]
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\mesh.h(36): warning C4251: 'vvr::Mesh::mVertices' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'vvr::Mesh'
+                 with
+                 [
+                     _Ty=vvr::Vec3d
+                 ]
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\mesh.h(37): warning C4251: 'vvr::Mesh::mTriangles' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'vvr::Mesh'
+                 with
+                 [
+                     _Ty=vvr::Triangle
+                 ]
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\mesh.h(38): warning C4251: 'vvr::Mesh::mVertexNormals' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'vvr::Mesh'
+                 with
+                 [
+                     _Ty=vvr::Vec3d
+                 ]
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\mesh.h(39): warning C4251: 'vvr::Mesh::mTexCoords' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'vvr::Mesh'
+                 with
+                 [
+                     _Ty=float
+                 ]
+         ExampleScene.cpp
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\settings.h(16): warning C4251: 'vvr::Settings::sMap' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'vvr::Settings'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=std::string
+                 ]
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\canvas.h(29): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\canvas.h(30): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\canvas.h(31): warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\canvas.h(138): warning C4251: 'vvr::Frame::shapes' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of struct 'vvr::Frame'
+                 with
+                 [
+                     _Ty=vvr::Shape *
+                 ]
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\canvas.h(145): warning C4251: 'vvr::Canvas2D::frames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'vvr::Canvas2D'
+                 with
+                 [
+                     _Ty=vvr::Frame
+                 ]
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\mesh.h(36): warning C4251: 'vvr::Mesh::mVertices' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'vvr::Mesh'
+                 with
+                 [
+                     _Ty=vvr::Vec3d
+                 ]
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\mesh.h(37): warning C4251: 'vvr::Mesh::mTriangles' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'vvr::Mesh'
+                 with
+                 [
+                     _Ty=vvr::Triangle
+                 ]
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\mesh.h(38): warning C4251: 'vvr::Mesh::mVertexNormals' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'vvr::Mesh'
+                 with
+                 [
+                     _Ty=vvr::Vec3d
+                 ]
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\mesh.h(39): warning C4251: 'vvr::Mesh::mTexCoords' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'vvr::Mesh'
+                 with
+                 [
+                     _Ty=float
+                 ]
+     1>c:\users\christos\workspace_vs\geolabskeleton\vvrframework\include\mathgeolib\geometry\aabb2d.h(132): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Christos\workspace_vs\GeoLabSkeleton\Debug\GeoLabSkeleton.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Christos\workspace_vs\GeoLabSkeleton\VVRFramework/lib/Debug/ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib VVRScene.lib /MANIFEST /ManifestFile:"Debug\GeoLabSkeleton.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Christos\workspace_vs\GeoLabSkeleton\Debug\GeoLabSkeleton.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Christos\workspace_vs\GeoLabSkeleton\Debug\GeoLabSkeleton.lib" /MACHINE:X86 Debug\GeoLabSkeleton.exe.embed.manifest.res
+         Debug\ContourEditorScene.obj
+         Debug\ExampleScene.obj
+         Debug\main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\GeoLabSkeleton.exe.embed.manifest" /manifest Debug\GeoLabSkeleton.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         GeoLabSkeleton.vcxproj -> C:\Users\Christos\workspace_vs\GeoLabSkeleton\Debug\GeoLabSkeleton.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\GeoLabSkeleton.unsuccessfulbuild".
+         Touching "Debug\GeoLabSkeleton.lastbuildstate".
+     1>Done Building Project "C:\Users\Christos\workspace_vs\GeoLabSkeleton\GeoLabSkeleton\GeoLabSkeleton.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.03
