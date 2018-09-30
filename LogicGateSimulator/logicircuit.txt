@@ -1,0 +1,12 @@
+Circuit:
+
+Columns: 2 Rows: 2
+	0	1	
+0	true	false	
+1	true	false	
+Gates:
+
+	Gate:	Column:	Input1:	Input2	Output:
+
+0	Not	0	0	0	0	
+1	Nand	0	0	0	0	
